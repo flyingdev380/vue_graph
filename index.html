@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vue-graph</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but vue-graph doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+      <h1>Graph Sample</h1>
+      <p>
+        <router-link to="/login">Login</router-link>
+        <router-link to="/graph">Graph</router-link>
+      </p>
+      <router-view></router-view>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
